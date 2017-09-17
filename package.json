@@ -1,0 +1,43 @@
+{
+  "name": "catwalk",
+  "productName": "Catwalk",
+  "version": "0.0.0",
+  "description": "Sexiest way to walk through your server!",
+  "license": "MIT",
+  "repository": "Alireza29675/catwalk",
+  "author": {
+    "name": "Alireza Sheikholmolouki",
+    "email": "alireza.sheikholmolouki@gmail.com",
+    "url": "sheikholmolouki.com"
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . --out=dist --asar --overwrite --all"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "dependencies": {
+    "electron-debug": "^1.0.0"
+  },
+  "devDependencies": {
+    "devtron": "^1.1.0",
+    "electron-packager": "^8.0.0",
+    "electron": "^1.7.9",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}
