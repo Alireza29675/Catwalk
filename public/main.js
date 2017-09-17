@@ -73,8 +73,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__styles_index_sass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__styles_index_sass__);
 
 
-console.log("app is started!");
-
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -115,7 +113,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n  background: red; }\n", ""]);
+exports.push([module.i, "body {\n  margin: 0;\n  padding: 0; }\n  body h1 {\n    margin: 0;\n    padding: 0;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    font-size: 30px;\n    font-weight: 100;\n    color: #666; }\n", ""]);
 
 // exports
 
