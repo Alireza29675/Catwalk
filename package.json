@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "electron .",
-    "dev": "gulp",
+    "dev": "gulp serve",
     "test": "xo",
     "build": "electron-packager . --out=dist --asar --overwrite --all"
   },
